@@ -1,0 +1,300 @@
+/* CSS file */
+ProgressBar {
+   borderColor: #163A71;
+   barColor: #ebca27;
+   trackColors: #163A71, #163A71;
+}
+
+Button {
+   cornerRadius: 0;
+   highlightAlphas: 0, 0;
+   fillAlphas: 1, 1, 1, 1;
+   fillColors: #ebca27, #ebca27, #446DA7, #446DA7;
+   color: #4975b5;
+   textRollOverColor: #ffffff;
+   textSelectedColor: #ffffff;
+   borderColor: #ebca27;
+   themeColor: #4975b5;
+   fontWeight: normal;
+   border-style: inset;
+   font-family: Arial;
+   font-size: 14;
+}
+
+SmoothImage {
+	borderThickness: 4;
+	borderColor: #FFFFFF;
+}
+
+.newsletterPanel {
+   header-height: 0;
+   borderStyle: solid;
+   borderThickness: 3;
+   roundedBottomCorners: true;
+   cornerRadius: 5;
+   dropShadowEnabled: true;
+   borderColor: #587FE0;
+   backgroundColor: #1c253f;
+}
+
+.panelNoir {
+   borderStyle: solid;
+   cornerRadius: 7;
+   dropShadowEnabled: false;
+   backgroundColor: #000000;
+   titleStyleName: "mypanelTitle";
+}
+
+.mypanelTitle {
+   color: #ffffff;
+   fontFamily: Arial;
+   fontWeight: normal;
+}
+
+VScrollBar {
+    downArrowUpSkin: Embed(source="../assets/downArrow.png");
+    downArrowOverSkin: Embed(source="../assets/downArrow.png");
+    downArrowDownSkin: Embed(source="../assets/downArrow.png");
+    upArrowUpSkin: Embed(source="../assets/upArrow.png");
+    upArrowOverSkin: Embed(source="../assets/upArrow.png");
+    upArrowDownSkin: Embed(source="../assets/upArrow.png");
+    thumbDownSkin: 
+        Embed(source="../assets/thumb.png",
+        scaleGridLeft="7", scaleGridTop="5", 
+        scaleGridRight="8", scaleGridBottom="7");
+        
+    thumbUpSkin: 
+        Embed(source="../assets/thumb.png",
+        scaleGridLeft="7", scaleGridTop="5", 
+        scaleGridRight="8", scaleGridBottom="7");
+        
+    thumbOverSkin: 
+        Embed(source="../assets/thumb.png",
+        scaleGridLeft="7", scaleGridTop="5", 
+        scaleGridRight="8", scaleGridBottom="7");
+        
+    trackSkin: 
+        Embed(source="../assets/scrolltrack.png",
+        scaleGridLeft="7", scaleGridTop="4", 
+        scaleGridRight="8", scaleGridBottom="6" );       
+} 
+
+Grid{
+	horizontal-gap: 0;
+	vertical-gap: 0;
+	border-sides: bottom;
+	border-color: #EBCA27;
+	border-thickness: 2;
+	border-style: solid;
+}
+
+GridRow{
+	border-sides: right;
+	border-color: #EBCA27;
+	border-thickness: 2;
+	border-style: solid;
+}
+
+GridItem{
+	border-sides: "left top";
+	border-color: #EBCA27;
+	border-thickness: 2;
+	border-style: solid;
+	text-align: center;
+	horizontal-align: center;
+	vertical-align: middle;
+}
+
+.titre {
+	color: #FFFFFF;
+	fontSize: 15;
+	fontFamily: trajan;
+	fontWeight: normal;
+	textAlign:center;
+}
+.infoBandeau {
+	color: #8CA8F0;
+	fontSize: 10;
+	fontFamily: tahoma;
+	textAlign: center;
+}
+.titreMenu {
+	color: #0A2144;
+	fontSize: 18;
+	fontFamily: myriadPro;
+	fontWeight: normal;
+	textAlign: center;
+}
+
+RadioButton {
+   borderStyle: solid;
+   highlightAlphas: 0, 0;
+   fillAlphas: 1, 1, 1, 1;
+   fillColors:  #163a71, #163a71, #4975b5, #4975b5;
+   borderColor: #163a71;
+   iconColor: #EBCA27;
+   color: #aecfff;
+   textSelectedColor: #ffffff;
+   textRollOverColor: #ffffff;
+   themeColor: #4975b5;
+   fontFamily: Arial;
+   fontSize: 14;
+}
+
+IndicationTextInput {
+   borderStyle: solid;
+   borderColor: #163a71;
+   backgroundColor: #163a71;
+   color: #aecfff;
+   fontFamily: Arial;
+   fontSize: 14;
+   theme-color: #AECFFF;
+   couleurBordureBis: #163A71;
+   couleurFondBis: #4975B5;
+   couleurTexteBis: #AECFFF;
+}
+IndicationTextArea {
+   borderStyle: solid;
+   borderColor: #163a71;
+   backgroundColor: #163a71;
+   color: #aecfff;
+   fontFamily: Arial;
+   fontSize: 14;
+   theme-color: #AECFFF;
+   couleurBordureBis: #163A71;
+   couleurFondBis: #4975B5;
+   couleurTexteBis: #AECFFF;
+}
+
+Label {
+   fontFamily: Arial;
+   fontSize: 14;
+   color: #092043;
+}
+
+ComboBox {
+   cornerRadius: 0;
+   color: #aecfff;
+   borderColor: #163a71;
+   iconColor: #aecfff;
+   highlightAlphas: 0, 0;
+   fillAlphas: 1, 1, 1, 1;
+   fillColors: #163a71, #163a71, #4975b5, #4975b5;
+   backgroundAlpha: 1;
+   selectionColor: #aecfff;
+   textSelectedColor: #ffffff;
+   useRollOver: true;
+   rollOverColor: #4975b5;
+   textRollOverColor: #ffffff;
+   themeColor: #163A71;
+   alternatingItemColors: #4975b5, #4975b5;
+   fontFamily: Arial;
+   fontSize: 14;
+   fontWeight: normal;
+   dropdownStyleName: "myComboBoxDropDowns";
+}
+
+.myComboBoxDropDowns {
+   cornerRadius: 0;
+   borderColor: #163a71;
+   color: #aecfff;
+   fontFamily: Arial;
+}
+
+.texteTitre {
+	color: #AECFFF;
+	fontSize: 30;
+	fontFamily: arial;
+}
+.texteSousTitre {
+	color: #FFFFFF;
+	fontSize: 18;
+	fontFamily: arial;
+	fontWeight: bold;
+}
+.texteCorps {
+	color: #000000;
+	fontSize: 14;
+	fontFamily: arial;
+	text-align: justify;
+}
+.texteFooter {
+	color: #AECFFF;
+	fontSize: 12;
+	fontFamily: arial;
+	fontWeight: normal;
+	textAlign: center;
+}
+
+.titreRecherche {
+	color: #092043;
+	fontSize: 24;
+	fontFamily: myriadPro;
+	textAlign: center;
+}
+.texteOnglets {
+	color: #FFFFFF;
+	padding-top: 15;
+	padding-left: 20;
+	fontSize: 18;
+	fontFamily: myriadPro;
+	textAlign: center;
+}
+.canvasBoutonMenu{
+	backgroundColor: #000000;
+}
+
+.texteVignette1{
+	color: #FFFFFF;
+	fontSize: 12;
+	fontFamily: arial;
+}
+.texteVignette2{
+	color: #AECFFF;
+	fontSize: 12;
+	fontFamily: arial;
+	font-weight: bold;
+}
+.texteVignette3{
+	color: #AECFFF;
+	fontSize: 30;
+	fontFamily: arial;
+}
+.texteVignette4{
+	color: #AECFFF;
+	fontSize: 12;
+	fontFamily: arial;
+}
+.texteVignette5{
+	color: #EBCA27;
+	fontSize: 9;
+	fontFamily: arial;
+}
+
+.texteFiche1{
+	color: #AECFFF;
+	fontSize: 30;
+	fontFamily: arial;
+}
+.texteFiche2{
+	color: #AECFFF;
+	fontSize: 12;
+	fontFamily: arial;
+}
+.texteFiche3{
+	color: #FFFFFF;
+	fontSize: 12;
+	fontFamily: arial;
+}
+
+.texteFiche4{
+	color: #FFFFFF;
+	fontSize: 18;
+	fontFamily: arial;
+}
+.texteFiche5{
+	color: #163A71;
+	fontSize: 9;
+	fontFamily: arial;
+	fontWeight: bold;
+}

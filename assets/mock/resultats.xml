@@ -1,0 +1,21 @@
+﻿<resultats>
+	<bien reference="ABC-123" ville="LEGE-CAP-FERRET" codePostal="33950" titre="Maison à étages sur terrain boisé" description="Maison à étages sur terrain boisé de 1186 m²
+RDC : 1 entrée, 1 salon séjour, 2 chambres,SDB, WC, 1 cuis sur terrasse avec barbecue, 1 garage double
+1 er : 2 chambres, 1 SDE, 1 WC, 1 grenier" nbPieces="5" proximite="" surfaceHabitable="130" surfaceTerrain="1186" prix="660000" honoraires="">
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniA1.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgA1.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniA2.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgA2.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniA3.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgA3.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniA4.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgA4.jpg"/>
+	</bien>
+
+	<bien reference="ABC-124" ville="BORDEAUX" codePostal="33000" titre="Maison en pierres, 9 pièces sur 3 niveaux" description="rue Ch. Monselet, Rare, Maison en pierres, 9 pièces sur 3 niveaux, cave, jardinet, entrée, séjour, salon, salle à manger avec cheminée, 6 chs avec parquet, SDE, SDB, 3 WC, chauf gaz et électrique, beaucoup de caractère" nbPieces="6" proximite="BORDEAUX Camille julian" surfaceHabitable="160" surfaceTerrain="50" prix="2050" honoraires="1722">
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniB1.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgB1.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniB2.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgB2.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniB3.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgB3.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniB4.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgB4.jpg"/>
+		<image urlApercu="http://www.cabinetbore.com/assets/mock/miniB5.jpg" urlImage="http://www.cabinetbore.com/assets/mock/imgB5.jpg"/>
+	</bien>
+	<bien reference="ABC-125" ville="BEGLES" codePostal="33130" titre="Appt traversant au rez de chaussée" description="Dans petite résidence de 4 étage. Appt traversant au rez de chaussée : Entrée, cellier, cuisine, salon séjour env 35 m2, 3 chbres, SDB, WC, chauffage électrique, dbles vitrages. parking + garage. BON ETAT" nbPieces="6" proximite="BUREAU DE POSTE" surfaceHabitable="110" surfaceTerrain="" prix="218000" honoraires="">
+	</bien>
+
+</resultats>
